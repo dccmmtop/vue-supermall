@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+<!--    <keep-alive>-->
     <router-view></router-view>
-    <main-tab-bar>
-    </main-tab-bar>
+<!--    </keep-alive>-->
+    <main-tab-bar/>
   </div>
 </template>
 
@@ -17,4 +18,6 @@
 
 </script>
 
-<style></style>
+<style>
+  @import "assets/css/base.css";
+</style>
